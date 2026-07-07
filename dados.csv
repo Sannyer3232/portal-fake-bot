@@ -1,0 +1,11 @@
+Nome,Sobrenome,CPF,E-mail,Telefone,Nascimento,Status,Observação,Endereço
+João,Silva,11111111111,joao.silva@email.com,92999990001,10/01/2000,ATIVO,Primeiro cadastro,"Rua A, 100 - Manaus/AM"
+Maria,Souza,22222222222,maria.souza@email.com,92999990002,15/05/1998,ATIVO,Cliente VIP,"Rua B, 200 - Manaus/AM"
+Pedro,Oliveira,33333333333,pedro.oliveira@email.com,92999990003,20/09/1995,INATIVO,Aguardando atualização,"Rua C, 300 - Manaus/AM"
+Ana,Costa,44444444444,ana.costa@email.com,92999990004,08/03/1999,ATIVO,Cadastro completo,"Rua D, 45 - Manaus/AM"
+Carlos,Pereira,55555555555,carlos.pereira@email.com,92999990005,12/07/1992,ATIVO,Sem observações,"Rua E, 87 - Manaus/AM"
+Fernanda,Lima,66666666666,fernanda.lima@email.com,92999990006,30/11/1996,INATIVO,Documentação pendente,"Rua F, 150 - Manaus/AM"
+Lucas,Almeida,77777777777,lucas.almeida@email.com,92999990007,17/02/2001,ATIVO,Novo cliente,"Rua G, 91 - Manaus/AM"
+Juliana,Rocha,88888888888,juliana.rocha@email.com,92999990008,05/06/1997,ATIVO,Confirmado,"Rua H, 12 - Manaus/AM"
+Rafael,Barbosa,99999999999,rafael.barbosa@email.com,92999990009,28/08/1994,INATIVO,Em análise,"Rua I, 250 - Manaus/AM"
+Camila,Martins,12345678901,camila.martins@email.com,92999990010,22/12/1993,ATIVO,Cadastro revisado,"Rua J, 500 - Manaus/AM"
