@@ -36,5 +36,7 @@ def processar_cadastros(df):
 
 
 
-df=ler_planilha('Dados_do_Roteiro_06.xlsx','Usuarios')
-processar_cadastros(df)
+if __name__ == '__main__':
+    df = ler_planilha('Dados_do_roteiro_06.xlsx', 'Usuarios')
+    if df is not None:
+        processar_cadastros(df)

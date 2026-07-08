@@ -1,7 +1,5 @@
 import os
 from pathlib import Path
-
-# Importando as funções dos módulos dos seus colegas
 from cadastro import ler_planilha, processar_cadastros
 from consulta import buscar_dados_por_cpf
 from exportacao import exportar_dados
@@ -13,9 +11,8 @@ def orquestrador():
     print("=" * 50)
 
     # 1. Preparação/Exportação dos dados
-    # Nota: Como exportacao.py gera 'arquivo_convertido.csv', vamos garantir que ele exista
-    # ou ajustar o nome para o que o consulta.py espera ('dados.csv')
-    planilha_origem = "Dados_do_Roteiro_06.xlsx"
+
+    planilha_origem = "Dados_do_roteiro_06.xlsx"
 
     if os.path.exists(planilha_origem):
         print("\n[Passo 1] Convertendo base de dados Excel para CSV...")
@@ -43,7 +40,6 @@ def orquestrador():
 
         # 3. Simulação de Consulta automatizada
         print("\n[Passo 3] Iniciando consultas de verificação (Exemplo)...")
-        # Vamos pegar os CPFs que foram processados para testar a consulta
         for _, linha in df_usuarios.head(2).iterrows():
             cpf_teste = str(linha["CPF"])
             print(f"\nBuscando dados no CSV para o CPF: {cpf_teste}")
